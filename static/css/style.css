@@ -1,3 +1,66 @@
+
+/* change style navbar */
+.navbar-default {
+  background-color: #2c4bb7;
+  border-color: #2633a6;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #d0cbf7;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #d0cbf7;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #d0cbf7;
+  background-color: #2633a6;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #d0cbf7;
+  background-color: #2633a6;
+}
+.navbar-default .navbar-toggle {
+  border-color: #2633a6;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #2633a6;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #d0cbf7;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #d0cbf7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #d0cbf7;
+    background-color: #2633a6;
+  }
+}
+/* end of change style navbar */
+
 /* this part for submenu in dropdown menu */
 .dropdown-submenu {
     position: relative;
@@ -48,4 +111,37 @@
 }
 /*======= end part for submenu in dropdown menu ========*/
 
+/* ismartuby-nav อยู่ใน base.html สำหรับ navbar */
+.ismartuby-nav {
+    margin-bottom: 0px;
+    border-bottom: 0px none;
+}
+
+/* ismartuby-masthead สำหรับส่วนหัวข้องหน้าใน authen/index.html */
+.ismartuby-masthead{
+    padding: 80px 0px;
+    position: relative;
+    text-align: center;
+    text-shawdow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    background-color: #7EC0EE;
+    background-repeat: repeat-x;
+    color: #FFF;
+}
+.ismartuby-masthead small {
+    color: #BFEFFF;
+}
+
+.ismartuby-masthead .lead {
+    width: 80%;
+    font-size: 30px;
+    margin: 0px auto 30px;
+    color: #FFF;
+}
+
+.ismartuby-masthead .lead-brand {
+    width: 80%;
+    font-size: 50px;
+    margin: 0px auto 30px;
+    color: #FFF;
+}
 
